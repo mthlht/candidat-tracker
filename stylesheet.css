@@ -77,18 +77,22 @@ body {
     min-width:50px;
 }
 
+
 .card-solo-img-container{
     display:flex;
     justify-content: center;
-    align-items: center;
-    border: .2em solid;
-    border-radius: 6%;
+    align-items: flex-end;
+    border-bottom: .4em solid;
     margin-right:.2em;
     margin-left: .2em;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
     padding:0.1em 0.1em 0em 0.1em;
-    box-shadow: .1em .1em .2em grey;
     background-color: #e9e9e9;
+}
+
+.lien-ancre {
+    display: flex;
+    align-items: flex-end;
 }
 
 .card-solo-img {
@@ -124,7 +128,7 @@ body {
 }
 
 .tab-title {
-    width:70%;
+    width:90%;
     font-size: 1.375em;
     font-weight: bold;
     text-align: center;
@@ -179,9 +183,8 @@ body {
     width:90%;
     max-width: 100px;
     min-width:50px;
-    border: .2em solid;
+    border-bottom: .4em solid;
     background-color: #e9e9e9;
-    border-radius: 6%;
     padding:0.1em 0.1em 0em 0.1em;
     margin-right:0.4em;
 }
