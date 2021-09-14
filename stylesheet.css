@@ -12,18 +12,18 @@ body {
     font-size: var(--font-size);
 }
 
+.center-test {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width:1080px) {
 
     #candidat-container {
-    width:50%
+    width:50%;
     }
 
-}
-
-#candidat-container {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
 }
 
 /* CSS - article */
@@ -171,11 +171,14 @@ body {
 .form-img-citation {
     display:flex;
     flex-wrap: nowrap;
+    align-items: flex-start;
     gap: 0.8em;
 }
 
 .form-citation {
     font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
